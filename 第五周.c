@@ -5,7 +5,8 @@
 Write your code in this editor and press "Run" button to compile and execute it.
 
 *******************************************************************************/
-
+//阶乘
+//n!=1*2*3*...*n
 #include <stdio.h>
 
 int main()
