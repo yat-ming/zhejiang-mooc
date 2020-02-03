@@ -55,24 +55,23 @@ int main()
 }
 
 //素数
-include <stdio.h>
+#include <stdio.h>
 
 int main()
 {
-    int d;
-    scanf("%d",&d);
-    for(int i=1;i<=d;i++){
-        int n;
-        int prime=1;
-        for(n=2;n<i;n++){
-            if(i%n==0){
-                prime=0;
-                break;
-            }
-        }
-        if(prime==1){
-            printf("%d",i);
-        }
-    }
-    return 0;
+  int x;
+  scanf("%d",&x);
+  int prime=1;
+  for(i=2;i<x;i++){
+     if(x%i==0){
+        prime=0;
+       break;
+     }
+   }
+  if(prime==1){
+    printf("是素数");
+  }
+  else{
+    printf("不是素数");
+  }
 }
